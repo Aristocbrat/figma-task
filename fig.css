@@ -1,19 +1,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://fonts.cdnfonts.com/css/rubik');
 *{
     margin: 0;
-    font-family:"Poppins", sans-serif;
+    font-family:'Gilroy-Regular', sans-serif;
     box-sizing: border-box;
 }
 body{
+    width: 100%;
     padding:0 2rem ;
 }
 header,main,.section1,.secondpagee{
+    width: 100%;
     background: linear-gradient(225.17deg, #7B11F9 0.3%, #7922D8 39.59%, #3636B2 100%) ;  
+    background-size: cover;
 }
 .headerlist a ,.headerlist button{
     font-size: 13px;
+}
+.mainmain{
+    width: 100%;
 }
 .firstset{
     left:-224px;
@@ -28,16 +35,17 @@ header,main,.section1,.secondpagee{
     font-family:  "Poppins", sans-serif;
 }
 .secondset{
-    width: 383px;
-    left: 160px;
+    width: 30%;
+    left: 12%;
 }
 .downloadoptions{
     font-size: 12px;
     font-weight:  "Poppins", sans-serif;
 }
 .right{
-    top: -510px;
-    width: 25%;
+    background-color: #7B11F9;
+    top: -520px;
+    width: 22%;
     left: 76%;
 }
 .appsingle{
@@ -45,7 +53,7 @@ header,main,.section1,.secondpagee{
     top: 30%;
 }
 .popupchat{
-    width: 500px;
+    width: 400px;
     left:-112% ;
     top: 182%;
 }
@@ -64,6 +72,9 @@ header,main,.section1,.secondpagee{
     color: #161C2D;
     font-family:  "Poppins", sans-serif;
 }
+/* .orrganize{
+    width: 100%;
+} */
 .organizetext{
     width: 400px;
 }
@@ -119,6 +130,9 @@ header,main,.section1,.secondpagee{
     margin-top: 400px;
     width: 100%;
     background: linear-gradient(  #313C59 0%, #161C2D 100%,white);
+}
+.closingpage1{
+    width: 100%;
 }
 .videoimg{
     top: -250px;
@@ -216,44 +230,54 @@ height: 206px;
 
 /* ---------------------------@media------------------------------------------------------------- */
 @media (min-width:350px) and (max-width:992px) {
-    *{
+    *{  
         width: 100%;
     }
     body{
         width: 100%;
-        padding: 5px;
-        overflow-x: hidden;
+        padding: 16px;
+    }
+    .mainmain{
+        width: 100%;
     }
     .firstset{
-        padding: 20px;
-        margin-left: 60%;
+        width: 100%;
+        padding: 10px;
+        margin-left: 55%;
     }
     .boldtext{
         font-size: 20px;
+        margin-left: 5%;
         width: 100%;
     }
     .smalltext{
         font-size: 10px;
-        width: 60%;
+        width: 100%;
     }
     .mybutton{
-        width: 70%;
-        margin-left: 18%;
+        margin-left: 30%;
+        width: 90%;
     }
     .secondset{
-        width: 100%;
-        margin-left:-35%;
+        width: 30%;
+        margin-left:2%;
+        display: flex;
+        gap: 20px;
     }
     .downloadoptions{
-        margin-left: 26%;
+        width: 50%;
+        margin-left: -5%;
+    }
+    .scondsetimages{
+        width: 40%;
     }
     .appstore{
-        margin-left: 16%;
-        width: 50%;
+        margin-left: 33%;
+        width: 105%;
     }
     .playstore{
-        margin-left: 16%;
-        width: 50%;
+        margin-left: 33%;
+        width: 100%;
     }
     .collabbigtext{
         margin-left: 10%;
@@ -270,18 +294,44 @@ height: 206px;
         margin-left: 10%;
     }
     .page4head{ 
-        width: 50%;
+        position: relative;
+        width: 100%;
+        left: 17%;
     }
     .para4{
-        width: 60%;
+        width: 70%;
+        font-size: 12px;
+    }
+    .balls{
+        width: 20%;
+    }
+    .ballh{
+        margin-left: 10%;
     }
    .atm{
         margin-left: -6%;
    }
    .videoimg{
-       width: 90%;
-       margin-left: -63%;
+       width: 70%;
+       margin-left: -60%;
        cursor: pointer;
+       background: purple;
+   }
+   .dots{
+    width: 20%;
+    margin-left: -60%;
+    margin-top: -12%;
+   }
+   
+   .closingpage1{
+    width: 70%;
+   }
+   .liltext{
+    margin-left: -30%;
+    padding:0 5px;
+   }
+   .firstp{
+    width: 30%;
    }
    .pricingtext{
      left: 15%;
@@ -295,6 +345,16 @@ height: 206px;
    }
    .liltext2{
     padding: 5px 21%;
+   }
+   .closingpage{
+    margin-top: 30%;
+   }
+   .numbersofuserstext{
+    font-size: 15px;
+    width: 60%;
+   }
+   .imgbutt {
+    margin-left: -8%;
    }
    .closingstages{
      width: 70%;

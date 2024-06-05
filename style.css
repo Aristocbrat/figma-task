@@ -1,0 +1,17 @@
+
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://fonts.cdnfonts.com/css/rubik');
+
+*{
+    margin: 0;
+    font-family:'Gilroy-Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    padding:0 2rem ;
+}
+header,main,.section1,.secondpagee{
+    width: 100%;
+    background: linear-gradient(225.17deg, #7B11F9 0.3%, #7922D8 39.59%, #3636B2 100%) ;  
+}
