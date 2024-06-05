@@ -247,16 +247,17 @@ height: 206px;
     }
     .boldtext{
         font-size: 20px;
-        margin-left: 5%;
+        margin-left: 10%;
         width: 100%;
     }
     .smalltext{
         font-size: 10px;
         width: 100%;
+        margin-left: 9%;
     }
     .mybutton{
         margin-left: 30%;
-        width: 90%;
+        width: 100%;
     }
     .secondset{
         width: 30%;
